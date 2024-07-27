@@ -1,12 +1,12 @@
 {
+  "home" : "https://Pakshik-Banga.github.io/try/",
   "name": "pathfinding-visualizer",
-  "homepage": "https://Pakshik-Banga.github.io/Pathfinding-Visualizer",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-      "predeploy": "npm run build",
-      "deploy": "gh-pages -d dist",
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d dist",
     "dev": "vite",
     "build": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
